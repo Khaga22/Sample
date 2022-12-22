@@ -3,10 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 
-usernam='20356sneh@gmail.com'
-password='Sneh@115346'
-frndId = '1214548088'
-message = 'HI'
+
 #this is where i open a new window
 driver = webdriver.Chrome()
 #this is where i open facebook
@@ -24,3 +21,9 @@ driver.get(mesgLink)
 time.sleep (1)
 #This is Where I clicked the Send Message '
 driver.find_element(By.PATH,('//div[@class="_1mf _1mj"]')).send_keys(message, Keys.ENTER)
+
+
+
+asdjknsajdnasjldlsdknfjkds
+sdjflndsljkfnkldfjklds
+lkjsdnflkjsdlkfndskljj
